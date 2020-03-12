@@ -1,5 +1,18 @@
 import React, { Component } from 'react';
+import Navbar from './components/layout/Navbar';
 import './App.css';
+
+class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+        <Navbar />
+      </div>
+    );
+  }
+}
+
+export default App;
 
 // function App() {
 //   return (
@@ -9,26 +22,26 @@ import './App.css';
 //   );
 // }
 
-class App extends Component {
-  too = () => 'Cars';
+// class App extends Component {
+//   too = () => 'Cars';
 
-  render() {
-    const name = 'Himanshu Gawari';
-    const foo = () => 'Bar';
-    const loading = true;
+//   render() {
+//     const name = 'Himanshu Gawari';
+//     const foo = () => 'Bar';
+//     const loading = true;
 
-    return (
-      <div className='App'>
-        <h1>Hello {name}</h1>
-        <h2>Test Expressions 1+1={1 + 1}</h2>
-        <h3>Hello {name.toUpperCase()}</h3>
-        <h4>Hello {foo()}</h4>
-        <h5>Hello {this.too()}</h5>
-        {loading ? <h6>Loading...</h6> : <h6>Alerady Loaded</h6>}
-      </div>
-    );
-  }
-}
+//     return (
+//       <div className='App'>
+//         <h1>Hello {name}</h1>
+//         <h2>Test Expressions 1+1={1 + 1}</h2>
+//         <h3>Hello {name.toUpperCase()}</h3>
+//         <h4>Hello {foo()}</h4>
+//         <h5>Hello {this.too()}</h5>
+//         {loading ? <h6>Loading...</h6> : <h6>Alerady Loaded</h6>}
+//       </div>
+//     );
+//   }
+// }
 
 // class App extends Component {
 //   render() {
@@ -49,5 +62,3 @@ class App extends Component {
 //     );
 //   }
 // }
-
-export default App;
