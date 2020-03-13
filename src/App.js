@@ -4,9 +4,11 @@ import './App.css';
 
 class App extends Component {
   render() {
+    // const arr = [1, 2, 3, 4, 5];
+
     return (
       <div className='App'>
-        <Navbar />
+        <Navbar title='Github Finder' icon='fab fa-github' />
       </div>
     );
   }
