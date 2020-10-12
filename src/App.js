@@ -9,7 +9,7 @@ import Alert from './components/layout/Alert.component';
 import Users from './components/users/Users.component';
 import User from './components/users/User.component';
 import Search from './components/users/Search.component';
-import { About } from './components/pages/About.component';
+import About from './components/pages/About.component';
 
 class App extends Component {
   constructor() {
